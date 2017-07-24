@@ -6,7 +6,7 @@ Get user-list(by pagination), get user by id, add a new user, update an existing
 > Supports 4(four) http-methods: **GET, POST, PUT and DELETE**.
 
 According technologies are used:
-> Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
+> Java, Spring Boot, Spring RESTfull Webservices, Spring Data JPA, Hibernate, JUnit
 
 ```
 Application runs on embedded Apache Tomcat. As a database using in-memory database HSQLDB. 
