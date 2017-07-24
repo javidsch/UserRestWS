@@ -1,16 +1,16 @@
 ### About Project
 
-`UserRestWS` is RESTfull web-application, which is written to manage user-list.
+`UserRestWS` is RESTfull web-service, which is written to manage user-list.
 Application supports `5(five) operations` on `User resource`. 
 Get user-list(by pagination), get user by id, add a new user, update an existing user and delete an existing user.
 > Supports 4(four) http-methods: **GET, POST, PUT and DELETE**.
 
-According technologies were used:
+According technologies are used:
 > Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
 
 ```
 Application runs on embedded Apache Tomcat. As a database using in-memory database HSQLDB. 
-There are some initial(10 dummy users) data imported into database in deployment.
+There are some initial(10 dummy users) data are imported into database during deployment.
 ```
 > /src/main/resources/import.sql
 
@@ -24,7 +24,7 @@ DELETE 	/userws/user/{id} 		-Deletion an existing user by ID
 ```
 
 Every operation returns JSON response, and in case of success `User` JSON. 
-#### There could be some expected errors:
+#### There could be some expected exceptions/falts:
 ```
 - User not found.
 - No user found. (User-list)
@@ -32,7 +32,7 @@ Every operation returns JSON response, and in case of success `User` JSON.
 - Already used username. (Duplicate username)
 ```
 
-#### Examples of JSONs:
+#### Examples of JSON data:
 
 * **GET** */userws/user/1* 
 > Response JSON:
