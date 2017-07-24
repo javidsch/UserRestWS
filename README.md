@@ -24,7 +24,7 @@ DELETE 	/userws/user/{id} 		-Deletion an existing user by ID
 ```
 
 Every operation returns JSON response, and in case of success `User` JSON. 
-#### There could be some expected exceptions/falts:
+#### There could be some expected exceptions/faults:
 ```
 - User not found.
 - No user found. (User-list)
