@@ -176,8 +176,8 @@ Three files are important for testing in /src/test/
 ```
 
 #### Deployment and runnig.
+There is a `RUNME.txt` file in the project's root folder. There all instructions:
 ```
-There is a `RUNME.txt**` file in the project's root folder. There all instructions:
 - How to build the project
 - How to test the project
 - How to run the project
