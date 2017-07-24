@@ -27,7 +27,7 @@ Every operation returns "User" JSON in success case.
 
 #### Examples of JSONs:
 
-1) GET /userws/user/1
+1) **GET** */userws/user/1*
 Response JSON:
 ```
 {
@@ -51,6 +51,7 @@ Response JSON:
 
 2) GET /userws/user [default param: page=1 and size=3]
 Response JSON:
+```
 {
     "content": [
         {
@@ -121,9 +122,11 @@ Response JSON:
         }
     }
 }
+```
 
 3) POST 	/userws/user 
 Request JSON:
+```
 {
     "userName": "eva1969",
     "firstName": "Evangeline",
@@ -135,9 +138,11 @@ Request JSON:
     "single": false,
     "familyMembersCount": 3
 }
+```
 
 4) PUT		/userws/user/8
 Request JSON:
+```
 {
     "userName": "dominic",
     "firstName": "Dominic",
@@ -149,6 +154,7 @@ Request JSON:
     "single": false,
     "familyMembersCount": 9
 }
+```
 
 5) DELETE 	/userws/user/10
 
