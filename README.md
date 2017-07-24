@@ -19,10 +19,17 @@ DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
 Every operation returns "User" JSON in success case. 
 #### There could be some expected errors:
 ```
-- *User not found.*
-- *No user found. (User-list)*
-- *Validation failed or invalid data-type.*
-- *Already used username. (Duplicate username)*
+- User not found
+- No user found. (User-list)
+- Validation failed or invalid data-type.
+- Already used username. (Duplicate username)
+```
+
+```
+User not found
+No user found. (User-list)
+Validation failed or invalid data-type.
+Already used username. (Duplicate username)
 ```
 
 Examples of JSONs:
