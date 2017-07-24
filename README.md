@@ -25,10 +25,11 @@ Every operation returns "User" JSON in success case.
 - Already used username. (Duplicate username)
 ```
 
-Examples of JSONs:
+#### Examples of JSONs:
 
 1) GET /userws/user/1
 Response JSON:
+```
 {
     "userId": 1,
     "userName": "naveen",
@@ -46,7 +47,7 @@ Response JSON:
         }
     }
 }
-
+```
 
 2) GET /userws/user [default param: page=1 and size=3]
 Response JSON:
