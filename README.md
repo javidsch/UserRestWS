@@ -174,7 +174,7 @@ Using JUnit for testing. Due to the fact that business logic is pretty straightf
 > There are three files for testing in `/src/test/`
 ```
 - UserRestControllerTests.java
-- beforeTestRun.sql (10 dummy user records for testing)
+- beforeTestRun.sql (10 dummy users for testing)
 - expectedValues.properties (Some expected JSONs are stored in this file)
 ```
 
