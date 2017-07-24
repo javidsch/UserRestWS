@@ -188,7 +188,7 @@ There is a `RUNME.txt` file in the project's root folder.
 ```
 
 ### Client-side.
-As a client can be used any REST-client. Recommended one is `Postman` chrome-plugin. 
+As a client can be used any REST-client. Recommended one is `Postman`. 
 > [Get Postman](https://www.getpostman.com/) ``|``
 > [Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 
