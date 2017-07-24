@@ -34,7 +34,7 @@ Every operation returns JSON response, and in case of success `User` JSON.
 
 #### Examples of JSON data:
 
-* **GET** */userws/user/1* 
+* **GET /userws/user/1**
 > Response JSON:
 ```
 {
