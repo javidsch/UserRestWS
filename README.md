@@ -49,8 +49,8 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-2) GET /userws/user [default param: page=1 and size=3]
-Response JSON:
+2) **GET** */userws/user* [default param: page=1 and size=3]
+> Response JSON:
 ```
 {
     "content": [
@@ -124,8 +124,8 @@ Response JSON:
 }
 ```
 
-3) POST 	/userws/user 
-Request JSON:
+3) **POST**     */userws/user*
+> Request JSON:
 ```
 {
     "userName": "eva1969",
@@ -140,8 +140,8 @@ Request JSON:
 }
 ```
 
-4) PUT		/userws/user/8
-Request JSON:
+4) **PUT**      */userws/user/8*
+> Request JSON:
 ```
 {
     "userName": "dominic",
@@ -156,7 +156,7 @@ Request JSON:
 }
 ```
 
-5) DELETE 	/userws/user/10
+5) **DELETE**   */userws/user/10*
 
 
 There are some initial(10 dummy) users imported into database in deployment.
