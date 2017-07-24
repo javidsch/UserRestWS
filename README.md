@@ -16,7 +16,7 @@ Application runs on embedded Apache Tomcat. As a database using in-memeory datab
 GET 	/userws/user 			-Getting user-list by pagination
 GET 	/userws/user/{id}		-Getting user by it's ID
 POST 	/userws/user 			-Adding a new user by JSON data
-PUT		/userws/user/{id} 		-Updating an existence user by ID by JSON data
+PUT	/userws/user/{id} 		-Updating an existence user by ID by JSON data
 DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
 ```
 
