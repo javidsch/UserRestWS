@@ -49,7 +49,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-2) **GET /userws/user** '[default param: page=1 and size=3]'
+2) **GET /userws/user** `[default param: page=1 and size=3]`
 > Response JSON:
 ```
 {
