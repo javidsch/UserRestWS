@@ -31,7 +31,7 @@ Every operation returns "User" JSON in success case.
 
 #### Examples of JSONs:
 
-1) **GET** */userws/user/1* 
+* **GET** */userws/user/1* 
 > Response JSON:
 ```
 {
@@ -53,7 +53,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-2) **GET /userws/user** `[default param: page=1 and size=3]`
+* **GET /userws/user** `[default param: page=1 and size=3]`
 > Response JSON:
 ```
 {
