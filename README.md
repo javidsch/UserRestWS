@@ -19,7 +19,7 @@ There are some initial(10 dummy users) data imported into database in deployment
 GET 	/userws/user 			-Getting user-list by pagination
 GET 	/userws/user/{id}		-Getting user by it's ID
 POST 	/userws/user 			-Adding a new user by JSON data
-PUT	/userws/user/{id} 		-Updating an existence user by ID by JSON data
+PUT	/userws/user/{id} 		-Updating an existence user by ID and JSON data
 DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
 ```
 
