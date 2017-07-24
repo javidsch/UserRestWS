@@ -20,7 +20,7 @@ PUT	/userws/user/{id} 		-Updating an existence user by ID by JSON data
 DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
 ```
 
-Every operation returns "User" JSON in success case. 
+Every operation returns `"User" JSON` in success case. 
 #### There could be some expected errors:
 ```
 - User not found
@@ -177,7 +177,7 @@ Three files are important for testing in /src/test/
 
 #### Deployment and runnig.
 ```
-There is a '**RUNME.txt**' file in the project's root folder. There all instructions:
+There is a `RUNME.txt**` file in the project's root folder. There all instructions:
 - How to build the project
 - How to test the project
 - How to run the project
@@ -187,9 +187,8 @@ There is a '**RUNME.txt**' file in the project's root folder. There all instruct
 ```
 As a client can be used any REST-client. Recommended one is 'Postman' chrome plugin. 
 ```
-> [Get Postman](https://www.getpostman.com/)
-
-> [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
+> [Get Postman](https://www.getpostman.com/) 
+> [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 
 
 #### Test-server
