@@ -1,4 +1,4 @@
-#### About Project
+### About Project
 
 `UserRestWS` is RESTfull web-application, which was written to manage user-list.
 Application supports 5(five) operations on `User resource`. 
@@ -169,7 +169,7 @@ Every operation returns `"User" JSON` in success case.
 ```
 
 
-#### Testing.
+### Testing.
 Using JUnit for testing. Because of business logic pretty straightforward, there are only integration tests.
 > Three files are important for testing in `/src/test/`
 ```
@@ -178,7 +178,7 @@ Using JUnit for testing. Because of business logic pretty straightforward, there
 - expectedValues.properties (Some expected JSONs are stored in this file)
 ```
 
-#### Deployment and runnig.
+### Deployment and runnig.
 There is a `RUNME.txt` file in the project's root folder. 
 > There are all instructions:
 ```
@@ -187,13 +187,13 @@ There is a `RUNME.txt` file in the project's root folder.
 - How to run the project
 ```
 
-#### Client.
+### Client.
 As a client can be used any REST-client. Recommended one is `Postman` chrome-plugin. 
 > [Get Postman](https://www.getpostman.com/) ``|``
 > [Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 
 
-#### Test-server
+### Test-server
 UserRestWS is runnig on Jelastic.
 > [UserRestWS](http://env-3412982.jelastic.regruhosting.ru/userws/user)
 
