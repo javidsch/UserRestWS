@@ -181,11 +181,10 @@ Using JUnit for testing. Due to the fact that business logic is pretty straightf
 ### Deployment and runnig.
 There is a `RUNME.txt` file in the project's root folder. 
 > There are all instructions:
-```
-- How to build the project
-- How to test the project
-- How to run the project
-```
+> How to build the project
+> How to test the project
+> How to run the project
+
 
 ### Client-side.
 As a client can be used any REST-client. Recommended one is `Postman`. 
