@@ -1,0 +1,23 @@
+#RUNME.txt
+
+#You need to install Java(latest JDK) and Maven. 
+#For Java(JDK) go to https://oracle.com (download/install and add 'java' executable file to $PATH variable)
+#For Maven go to https://maven.apache.org (download/install and add 'mvn' script file to $PATH variable)
+#Go to the root directory of 'UserRestWS' project - /UserRestWS (RUNME.txt initially is in the project's root directory)
+
+
+#Build the project
+mvn clean package
+
+#Build without tests
+mvn clean package -DskipTests
+
+#Test only
+mvn test
+
+#Run using Maven
+mvn spring-boot:run
+
+#Run artifact file(war) directly from Java
+#java -jar ./target/UserRestWS-1.0.war
+

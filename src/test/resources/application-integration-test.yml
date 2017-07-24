@@ -1,0 +1,3 @@
+#Application test-settings for unit/integration tests
+#How many users per page(default)
+usersPerPage: 4
