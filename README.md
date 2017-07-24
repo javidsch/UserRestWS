@@ -163,20 +163,22 @@ Every operation returns `"User" JSON` in success case.
 * **DELETE /userws/user/10**
 
 
+
 There are some initial(10 dummy) users imported into database in deployment.
 
 
 #### Testing.
-```
 Using JUnit for testing. Because of business logic pretty straightforward, there are only integration tests.
-Three files are important for testing in /src/test/
+> Three files are important for testing in /src/test/
+```
 > UserRestControllerTests.java
 > beforeTestRun.sql (10 dummy user records for testing)
 > expectedValues.properties (Some expected JSONs are stored in this file)
 ```
 
 #### Deployment and runnig.
-There is a `RUNME.txt` file in the project's root folder. There all instructions:
+There is a `RUNME.txt` file in the project's root folder. 
+> There are all instructions:
 ```
 - How to build the project
 - How to test the project
@@ -185,14 +187,15 @@ There is a `RUNME.txt` file in the project's root folder. There all instructions
 
 #### Client.
 ```
-As a client can be used any REST-client. Recommended one is 'Postman' chrome plugin. 
+As a client can be used any REST-client. Recommended one is 'Postman' chrome-plugin. 
 ```
 > [Get Postman](https://www.getpostman.com/) ``|``
-> [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
+> [Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 
 
 #### Test-server
-> [UserRestWS on Jelastic](http://env-3412982.jelastic.regruhosting.ru/userws/user)
+UserRestWS is runnig on Jelastic.
+> [UserRestWS](http://env-3412982.jelastic.regruhosting.ru/userws/user)
 
 
 
