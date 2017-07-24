@@ -10,7 +10,9 @@ In development, used according technologies:
 
 ```
 Application runs on embedded Apache Tomcat. As a database using in-memeory database HSQLDB. 
+There are some initial(10 dummy) users imported into database in deployment.
 ```
+> /src/main/resources/import.sql
 
 #### REST operations on the resource:
 ```
@@ -162,10 +164,6 @@ Every operation returns `"User" JSON` in success case.
 ```
 
 * **DELETE /userws/user/10**
-
-
-
-There are some initial(10 dummy) users imported into database in deployment.
 
 
 #### Testing.
