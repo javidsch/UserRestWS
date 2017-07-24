@@ -1,4 +1,4 @@
-# About
+## About
 UserWS is RESTfull web-application, which was written to manage user-list.
 Application supports 5(five) operations on user resource. 
 Get user-list(by pagination), get user by id, add a new user, update an existence user and delete an existence user.
@@ -18,10 +18,10 @@ DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
 
 Every operation returns "User" JSON in success case. 
 There could be some expected errors:
--User not found.
--No user found. (User-list)
--Validation failed or invalid data-type.
--Already used username. (Duplicate username)
+- User not found.
+- No user found. (User-list)
+- Validation failed or invalid data-type.
+- Already used username. (Duplicate username)
 
 
 Examples of JSONs:
