@@ -128,7 +128,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-3) **POST /userws/user**
+* **POST /userws/user**
 > Request JSON:
 ```
 {
@@ -144,7 +144,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-4) **PUT /userws/user/8**
+* **PUT /userws/user/8**
 > Request JSON:
 ```
 {
@@ -160,19 +160,22 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-5) **DELETE /userws/user/10**
+* **DELETE /userws/user/10**
 
 
 There are some initial(10 dummy) users imported into database in deployment.
 
 
-Testing.
+#### Testing.
+```
 Using JUnit for testing. Because of business logic pretty straightforward, there are only integration tests.
 Three files are important for testing in /src/test/
+```
 -UserRestControllerTests.java
 -beforeTestRun.sql (10 dummy user records for testing)
 -expectedValues.properties (Some expected JSONs are stored in this file)
-
+```
+```
 
 Deployment and runnig.
 There is a 'RUNME.txt' file in the project's root folder. There all instructions:
