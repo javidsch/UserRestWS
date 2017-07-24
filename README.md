@@ -194,8 +194,8 @@ As a client can be used any REST-client. Recommended one is 'Postman' chrome plu
 ```
 Jelastic server:
 - http://env-3412982.jelastic.regruhosting.ru/userws/user
-[UserRestWS on Jelastic](http://env-3412982.jelastic.regruhosting.ru/userws/user)
 ```
+[UserRestWS on Jelastic](http://env-3412982.jelastic.regruhosting.ru/userws/user)
 
 
 
