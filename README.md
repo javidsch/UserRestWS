@@ -187,14 +187,14 @@ There is a `RUNME.txt` file in the project's root folder.
 - How to run the project
 ```
 
-### Client.
+### Client-side.
 As a client can be used any REST-client. Recommended one is `Postman` chrome-plugin. 
 > [Get Postman](https://www.getpostman.com/) ``|``
 > [Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 
 
-### Test-server
-UserRestWS is runnig on Jelastic.
+### Test-server.
+UserRestWS is running on Jelastic.
 > [UserRestWS](http://env-3412982.jelastic.regruhosting.ru/userws/user)
 
 
