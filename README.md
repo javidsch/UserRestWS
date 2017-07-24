@@ -1,13 +1,14 @@
-### About Application
-```
-UserRestWS is RESTfull web-application, which was written to manage user-list.
-Application supports 5(five) operations on user resource. 
+#### About Project
+
+`UserRestWS` is RESTfull web-application, which was written to manage user-list.
+Application supports 5(five) operations on `User resource`. 
 Get user-list(by pagination), get user by id, add a new user, update an existence user and delete an existence user.
-It supports 4(four) http-methods: GET, POST, PUT and DELETE.
+It supports 4(four) http-methods: **GET, POST, PUT and DELETE**.
 
 In development, used according technologies:
-Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
+> Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
 
+```
 Application runs on embedded Apache Tomcat. As a database using in-memeory database HSQLDB. 
 ```
 
@@ -169,11 +170,11 @@ There are some initial(10 dummy) users imported into database in deployment.
 
 #### Testing.
 Using JUnit for testing. Because of business logic pretty straightforward, there are only integration tests.
-> Three files are important for testing in /src/test/
+> Three files are important for testing in `/src/test/`
 ```
-> UserRestControllerTests.java
-> beforeTestRun.sql (10 dummy user records for testing)
-> expectedValues.properties (Some expected JSONs are stored in this file)
+- UserRestControllerTests.java
+- beforeTestRun.sql (10 dummy user records for testing)
+- expectedValues.properties (Some expected JSONs are stored in this file)
 ```
 
 #### Deployment and runnig.
@@ -186,9 +187,7 @@ There is a `RUNME.txt` file in the project's root folder.
 ```
 
 #### Client.
-```
-As a client can be used any REST-client. Recommended one is 'Postman' chrome-plugin. 
-```
+As a client can be used any REST-client. Recommended one is `Postman` chrome-plugin. 
 > [Get Postman](https://www.getpostman.com/) ``|``
 > [Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 
