@@ -2,7 +2,7 @@
 
 `UserRestWS` is RESTfull web-application, which is written to manage user-list.
 Application supports 5(five) operations on `User resource`. 
-Get user-list(by pagination), get user by id, add a new user, update an existence user and delete an existence user.
+Get user-list(by pagination), get user by id, add a new user, update an existing user and delete an existing user.
 It supports 4(four) http-methods: **GET, POST, PUT and DELETE**.
 
 According technologies were used:
@@ -19,8 +19,8 @@ There are some initial(10 dummy users) data imported into database in deployment
 GET 	/userws/user 			-Getting user-list by pagination
 GET 	/userws/user/{id}		-Getting user by it's ID
 POST 	/userws/user 			-Adding a new user by JSON data
-PUT	/userws/user/{id} 		-Updating an existence user by ID and JSON data
-DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
+PUT	/userws/user/{id} 		-Updating an existing user by ID and JSON data
+DELETE 	/userws/user/{id} 		-Deletion an existing user by ID
 ```
 
 Every operation returns `"User" JSON` in success case. 
