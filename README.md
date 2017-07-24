@@ -186,9 +186,10 @@ There is a '**RUNME.txt**' file in the project's root folder. There all instruct
 #### Client.
 ```
 As a client can be used any REST-client. Recommended one is 'Postman' chrome plugin. 
-- https://www.getpostman.com/
-- https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
 ```
+> [Get Postman](https://www.getpostman.com/)
+> [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
+
 
 #### Test-server
 > [UserRestWS on Jelastic](http://env-3412982.jelastic.regruhosting.ru/userws/user)
