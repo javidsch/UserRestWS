@@ -27,8 +27,8 @@ Every operation returns "User" JSON in success case.
 
 #### Examples of JSONs:
 
-1) **GET** */userws/user/1*
-Response JSON:
+1) **GET** */userws/user/1* 
+> Response JSON:
 ```
 {
     "userId": 1,
