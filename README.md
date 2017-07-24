@@ -164,6 +164,9 @@ Every operation returns `"User" JSON` in success case.
 ```
 
 * **DELETE /userws/user/10**
+```
+- No request body. 
+```
 
 
 #### Testing.
