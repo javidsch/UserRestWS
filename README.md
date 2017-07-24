@@ -1,4 +1,5 @@
-## About
+### About Application
+```
 UserWS is RESTfull web-application, which was written to manage user-list.
 Application supports 5(five) operations on user resource. 
 Get user-list(by pagination), get user by id, add a new user, update an existence user and delete an existence user.
@@ -8,13 +9,16 @@ In development, used according technologies:
 Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
 
 Application runs on embedded Apache Tomcat. As a database using in-memeory database HSQLDB. 
+```
 
-REST operations on the resource:
+#### REST operations on the resource:
+```
 GET 	/userws/user 			-Getting user-list by pagination
 GET 	/userws/user/{id}		-Getting user by it's ID
 POST 	/userws/user 			-Adding a new user by JSON data
 PUT		/userws/user/{id} 		-Updating an existence user by ID by JSON data
 DELETE 	/userws/user/{id} 		-Deletion an existence user by ID
+```
 
 Every operation returns "User" JSON in success case. 
 #### There could be some expected errors:
@@ -124,7 +128,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-3) **POST**     */userws/user*
+3) **POST /userws/user**
 > Request JSON:
 ```
 {
@@ -140,7 +144,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-4) **PUT**      */userws/user/8*
+4) **PUT /userws/user/8**
 > Request JSON:
 ```
 {
@@ -156,7 +160,7 @@ Every operation returns "User" JSON in success case.
 }
 ```
 
-5) **DELETE**   */userws/user/10*
+5) **DELETE /userws/user/10**
 
 
 There are some initial(10 dummy) users imported into database in deployment.
