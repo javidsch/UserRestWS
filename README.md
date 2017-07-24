@@ -171,7 +171,7 @@ Every operation returns JSON response, and in case of success `User` JSON.
 
 ### Testing.
 Using JUnit for testing. Due to the fact that business logic is pretty straightforward, there are only integration tests.
-> Three files are important for testing in `/src/test/`
+> There are three files for testing in `/src/test/`
 ```
 - UserRestControllerTests.java
 - beforeTestRun.sql (10 dummy user records for testing)
