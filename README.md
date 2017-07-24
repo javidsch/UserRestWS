@@ -1,3 +1,4 @@
+# About
 UserWS is RESTfull web-application, which was written to manage user-list.
 Application supports 5(five) operations on user resource. 
 Get user-list(by pagination), get user by id, add a new user, update an existence user and delete an existence user.
