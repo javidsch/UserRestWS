@@ -3,7 +3,7 @@
 `UserRestWS` is RESTfull web-application, which is written to manage user-list.
 Application supports 5(five) operations on `User resource`. 
 Get user-list(by pagination), get user by id, add a new user, update an existing user and delete an existing user.
-It supports 4(four) http-methods: **GET, POST, PUT and DELETE**.
+> Supports 4(four) http-methods: **GET, POST, PUT and DELETE**.
 
 According technologies were used:
 > Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
