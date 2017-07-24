@@ -9,7 +9,7 @@ According technologies were used:
 > Java, Spring Boot, Spring RESTfull Webservices, JPA/Hibernate, JUnit
 
 ```
-Application runs on embedded Apache Tomcat. As a database using in-memeory database HSQLDB. 
+Application runs on embedded Apache Tomcat. As a database using in-memory database HSQLDB. 
 There are some initial(10 dummy users) data imported into database in deployment.
 ```
 > /src/main/resources/import.sql
