@@ -1,6 +1,6 @@
 ### About Application
 ```
-UserWS is RESTfull web-application, which was written to manage user-list.
+UserRestWS is RESTfull web-application, which was written to manage user-list.
 Application supports 5(five) operations on user resource. 
 Get user-list(by pagination), get user by id, add a new user, update an existence user and delete an existence user.
 It supports 4(four) http-methods: GET, POST, PUT and DELETE.
@@ -194,6 +194,7 @@ As a client can be used any REST-client. Recommended one is 'Postman' chrome plu
 ```
 Jelastic server:
 - http://env-3412982.jelastic.regruhosting.ru/userws/user
+- [UserRestWS on Jelastic](http://env-3412982.jelastic.regruhosting.ru/userws/user)
 ```
 
 
