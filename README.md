@@ -23,7 +23,7 @@ PUT	/userws/user/{id} 		-Updating an existing user by ID and JSON data
 DELETE 	/userws/user/{id} 		-Deletion an existing user by ID
 ```
 
-Every operation returns `"User" JSON` in success case. 
+Every operation returns JSON response, and in case of success `User` JSON. 
 #### There could be some expected errors:
 ```
 - User not found.
