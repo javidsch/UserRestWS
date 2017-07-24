@@ -170,25 +170,32 @@ There are some initial(10 dummy) users imported into database in deployment.
 ```
 Using JUnit for testing. Because of business logic pretty straightforward, there are only integration tests.
 Three files are important for testing in /src/test/
-```
--UserRestControllerTests.java
--beforeTestRun.sql (10 dummy user records for testing)
--expectedValues.properties (Some expected JSONs are stored in this file)
-```
+- UserRestControllerTests.java
+- beforeTestRun.sql (10 dummy user records for testing)
+- expectedValues.properties (Some expected JSONs are stored in this file)
 ```
 
-Deployment and runnig.
+#### Deployment and runnig.
+```
 There is a 'RUNME.txt' file in the project's root folder. There all instructions:
 -How to build the project
 -How to test the project
 -How to run the project
+```
 
-Client.
+#### Client.
+```
 As a client can be used any REST-cliet. Recommended one is 'Postman' chrome plugin. 
 Look at:
 -https://www.getpostman.com/
 -https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
+```
 
+#### Test-server
+```
+Jelastic server:
+- http://env-3412982.jelastic.regruhosting.ru/userws/user
+```
 
 
 
